@@ -73,6 +73,11 @@
                 padding: 17%;
                 width: 100%;
                 color: #fff;
+                min-height: 550px;
+            }
+            
+            .coverow {
+                padding-top: 25%;
             }
             
             .cover h1,
@@ -96,6 +101,8 @@
             
             .nosotros-img {
                 overflow: hidden;
+                padding-left: 0;
+                padding-right: 0;
             }
             
             .nosotros h4,
@@ -155,6 +162,7 @@
                 .navbar-expand-lg .navbar-nav .nav-link {
                     padding-right: 1rem;
                 }
+                .nosotros-img {}
             }
             /* Extra large devices (large desktops, 1200px and up) */
             
