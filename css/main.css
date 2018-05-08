@@ -68,6 +68,7 @@
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
+                background-attachment: fixed;
                 margin-top: 5%;
                 padding: 17%;
                 width: 100%;
@@ -80,7 +81,9 @@
             }
             
             .cover h1,
-            h3 {
+            .cover h3,
+            .programas-container h2,
+            .programas-container h1 {
                 text-shadow: 2px 2px 2px #49b647;
             }
             
@@ -105,7 +108,7 @@
             }
             
             .nosotros h4,
-            h2 {
+            .nosotros h2 {
                 text-shadow: 2px 2px 2px #FF0000;
             }
             
@@ -117,9 +120,53 @@
                 margin-top: -12%;
             }
             
-            .programas-container {
+            .programas-col {
                 height: 500px;
-                background-color: #fff;
+                padding: 0;
+                background-image: url(..//img/material_mesa_sf.png);
+                background-origin: content-box;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+            .programas-col-kinder {
+                height: 500px;
+                padding: 0;
+                background-image: url(..//img/materiales_sf.png);
+                background-origin: content-box;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+            .programas-kinder {
+                padding: 10% 7%;
+            }
+            
+            .programas-maternal {
+                padding: 0 7% 10% 7%;
+            }
+            
+            .actividades-container {
+                background-image: url('../img/casita.jpg');
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-origin: border-box;
+                background-size: cover;
+                color: #fff;
+            }
+            
+            .actividades-col {
+                height: 350px;
+                width: 350px;
+                background-color: #28a745;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 5px;
             }
             
             .footer {
@@ -199,6 +246,12 @@
                 .nosotros-img {
                     padding-left: 5%;
                 }
+                .programas-kinder {
+                    padding: 0% 7%;
+                }
+                .programas-maternal {
+                    padding-top: 5%;
+                }
             }
             /* Extra large devices (large desktops, 1200px and up) */
             
@@ -213,7 +266,7 @@
                     padding-top: 0%;
                 }
                 .nubes-container {
-                    margin-top: -2%;
+                    margin-top: -4%;
                 }
                 .footer {
                     margin-bottom: 85px;
