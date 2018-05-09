@@ -158,15 +158,54 @@
                 color: #fff;
             }
             
+            .nubes-container-actividades {
+                background-image: url(../img/cloud_blue.png);
+                background-repeat: repeat-x;
+                height: 100%;
+                max-height: 10%;
+            }
+            
+            .franja-azul {
+                background-color: #a8e2ff;
+                text-shadow: 2px 2px 2px #FF0000;
+                color: #fff;
+            }
+            
             .actividades-col {
-                height: 350px;
-                width: 350px;
-                background-color: #28a745;
-                border-radius: 50%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 5px;
+                height: 50%;
+                text-shadow: 2px 2px 2px #49b647;
+                opacity: .75;
+            }
+            
+            .actividades-col:hover {
+                transform: scale(1.03, 1.03);
+                transition: transform 1s;
+                opacity: 1;
+            }
+            
+            .actividades-col h2 {
+                font-size: 1rem;
+            }
+            
+            .mapa-container {
+                z-index: 1;
+                height: 100%;
+                width: 100%;
+                max-height: 400px;
+                padding: 0px;
+                border-width: 0px;
+                margin: 0px;
+                left: 0px;
+                top: 0px;
+            }
+            
+            .visitanos {
+                text-shadow: 2px 2px 2px #FF0000;
+            }
+            
+            .contactanos-container h4,
+            .contactanos-container svg {
+                color: rgb(13, 117, 8);
             }
             
             .footer {
