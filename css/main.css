@@ -175,6 +175,7 @@
                 height: 50%;
                 text-shadow: 2px 2px 2px #49b647;
                 opacity: .75;
+                padding-top: 10%;
             }
             
             .actividades-col:hover {
@@ -206,6 +207,28 @@
             .contactanos-container h4,
             .contactanos-container svg {
                 color: rgb(13, 117, 8);
+            }
+            
+            .contactanos-container a {
+                text-decoration: none;
+                color: #212529;
+            }
+            
+            #contacto {
+                background-image: url(../img/cuaderno.jpg);
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .form-group input,
+            .form-group textarea {
+                border-top: none;
+                border-right: none;
+                border-left: none;
+                border-bottom: 2px solid green;
+                background-color: transparent;
             }
             
             .footer {
@@ -254,6 +277,9 @@
                 }
                 .footer {
                     margin-bottom: 85px;
+                }
+                .actividades-col {
+                    padding-top: 0%;
                 }
             }
             /* Large devices (desktops, 992px and up) */
