@@ -186,7 +186,7 @@
             }
             
             .actividades-col h2 {
-                font-size: 1rem;
+                font-size: 1.5rem;
             }
             
             .mapa-container {
@@ -273,6 +273,9 @@
                 .nubes-container {
                     margin-top: -8%;
                 }
+                .actividades-col h2 {
+                    font-size: 2rem;
+                }
             }
             /* Medium devices (tablets, 768px and up) */
             
@@ -292,6 +295,19 @@
                 }
                 .actividades-col {
                     padding-top: 0%;
+                }
+                .actividades-col h2 {
+                    font-size: 1.5rem;
+                }
+                .programas-kinder {
+                    padding: 0% 3%;
+                }
+                .programas-maternal {
+                    padding: 3% 0% 1% 4%;
+                }
+                .carousel-item iframe {
+                    width: 100%;
+                    padding: 2% 2%
                 }
             }
             /* Large devices (desktops, 992px and up) */
@@ -323,9 +339,6 @@
                 .nosotros-img {
                     padding-left: 5%;
                 }
-                .programas-kinder {
-                    padding: 0% 7%;
-                }
                 .programas-maternal {
                     padding-top: 5%;
                 }
@@ -347,5 +360,8 @@
                 }
                 .footer {
                     margin-bottom: 85px;
+                }
+                .carousel-item iframe {
+                    padding: 2% 25%;
                 }
             }
