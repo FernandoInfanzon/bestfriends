@@ -162,13 +162,14 @@
                 background-image: url(../img/cloud_blue.png);
                 background-repeat: repeat-x;
                 height: 100%;
-                max-height: 10%;
+                max-height: 7%;
             }
             
             .franja-azul {
                 background-color: #a8e2ff;
                 text-shadow: 2px 2px 2px #FF0000;
                 color: #fff;
+                margin-top: -1%;
             }
             
             .actividades-col {
@@ -202,6 +203,17 @@
             
             .visitanos {
                 text-shadow: 2px 2px 2px #FF0000;
+            }
+            
+            .testimonios-container {
+                background-color: #a8e2ff;
+                height: 520px;
+            }
+            
+            .carousel-item iframe {
+                width: 100%;
+                padding: 10% 2%;
+                height: 590px;
             }
             
             .contactanos-container h4,
