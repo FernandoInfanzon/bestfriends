@@ -37,7 +37,7 @@
         <div id="clouds">
 
             <nav class="navbar navbar-expand-lg ">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#home">
                     <img class="" src="img/logo_sf.png" width="150" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,19 +47,19 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Best Friends<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#bestfriends">Best Friends<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Adminisiones</a>
+                            <a class="nav-link" href="#programas">Programas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Programas</a>
+                            <a class="nav-link" href="#instalaciones">Instalaciones</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Extras</a>
+                            <a class="nav-link" href="#testimonios">Testimonios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contáctanos</a>
+                            <a class="nav-link" href="#contacto">Contáctanos</a>
                         </li>
                     </ul>
 
@@ -85,7 +85,7 @@
         <!-- /cover -->
 
         <!-- nosotros -->
-        <div class="container-fluid nosotros">
+        <div class="container-fluid nosotros" id="bestfriends">
 
             <div class="row py-5 align-middle nosotros-row">
                 <div class="col-lg-6 text-center">
@@ -98,7 +98,7 @@
                         minima fugiat recusandae qui consequuntur cumque quos molestias dolorem, quam osam minima fugiatLorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ducimus omnis itaque! Deleniti, debitis, sed laboriosam minima fugiat
                         recusandae qui consequuntur cumque quos molestias dolorem, quam quia praesentium beatae culpa.
                     </p>
-                    <a href="#contacto" class="btn btn-danger btn-xs-block btn-lg active m-3" role="button" aria-pressed="true">Informes</a>
+                    <a href="#informes" class="btn btn-danger btn-xs-block btn-lg active m-3" role="button" aria-pressed="true">Informes</a>
                 </div>
                 <div class=" col-lg-6 text-center nosotros-img ">
 
@@ -112,7 +112,7 @@
         </div>
         <!--/ nosotros -->
         <!-- programas -->
-        <div class="container-fluid nubes-container">
+        <div class="container-fluid nubes-container" id="programas">
 
         </div>
         <div class="container-fluid programas-container">
@@ -197,10 +197,12 @@
 
 
                 </div>
+
             </div>
+
         </div>
         <!-- programas -->
-
+        <span id="instalaciones"></span>
 
         <!-- actividades -->
         <div class="container-fluid nubes-container-actividades">
@@ -256,7 +258,7 @@
         <!-- /actividades -->
 
         <!-- Testimonios -->
-        <div class="container-fluid nubes-container-actividades">
+        <div class="container-fluid nubes-container-actividades" id="testimonios">
 
         </div>
         <div class="franja-azul">
@@ -325,7 +327,7 @@
         <!-- /Testimonios -->
 
         <!-- Contacto -->
-        <div class="container-fluid nubes-container">
+        <div class="container-fluid nubes-container" id="contacto">
 
         </div>
         <div class="visitanos">
@@ -362,11 +364,16 @@
 
             <!--/contact-->
         </div>
+        <div class="container-fluid nubes-container-actividades">
 
-        <div class="container-fluid py-5" id="contacto">
+        </div>
+        <div class="franja-azul">
+            <h1 class="text-center pt-3 pb-5 mb-0">Informes</h1>
+        </div>
+        <div class="container-fluid py-5" id="informes">
             <div class="row contacto-row">
                 <main class="col-12 col-md-8 offset-md-2 main-content">
-                    <h2 class="d-block text-uppercase text-center contacto pb-4">Informes</h2>
+
 
                     <form id="contact_form" action="send.php" method="post" class=" contact-form">
                         <div class="form-group">
@@ -401,7 +408,9 @@
 
         <!-- footer -->
 
+        <div class="container-fluid nubes-container" id="contacto">
 
+        </div>
         <div class="container-fluid footer text-center">
             <div class="container text-center">
                 <!-- <div class="row">
