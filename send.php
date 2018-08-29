@@ -5,10 +5,10 @@ function is_ajax(){
 }
 
 if(is_ajax()){
-	$name = $_POST['name'];
+	$name = utf8_decode($_POST['name']);
 	$email = $_POST['email'];
 	$telefono = $_POST['telefono'];
-	$message = $_POST['message'];
+	$message = utf8_decode($_POST['message']);
 	$header = 'From: ' . $email . "\r\n";
 	$header .= 'X-Mailer: PHP/' . phpversion() . "\r\n";
 	$header .= 'Mime-version: 1.0 \r\n';
@@ -17,9 +17,9 @@ if(is_ajax()){
 	$bodyMessage .= "Email: " . $email . "\r\n";
 	$bodyMessage .= "Telefono: " . $telefono . "\r\n";
 	$bodyMessage .= "Message: " . $message . "\r\n";
-	$for = "hello@fernandoim.com";
+	$for = "informes@kinderbestfriends.com";
 	$subject = "Mensaje enviado desde pagina de BestFriends";
-	mail($for, $subject, utf8_encode($bodyMessage), $header);
+	mail($for, $subject, $bodyMessage, $header);
 
 	echo json_encode(array(
 		'message' => sprintf('Tu mensaje ha sido enviado, pronto te contactaremos')
