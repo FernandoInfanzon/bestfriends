@@ -1,0 +1,38 @@
+:root {
+    --primary: #8bc34a;
+    --secondary: #03a9f4;
+    --alternative: #ab47bc;
+    --yellow: #ffb300;
+    --gray: #ecf0f5;
+    --darkblue: #25476a;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.h-100 {
+    min-height: 100vh;
+}
+
+body.login {
+    background-image: url(../img/jardin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.login .content {
+    -webkit-box-shadow: 0px 9px 25px -5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 9px 25px -5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 9px 25px -5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.footer {
+    color: #fff;
+}

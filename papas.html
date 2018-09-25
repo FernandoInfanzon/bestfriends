@@ -37,12 +37,13 @@
 
 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/papas.css">
     <title>Best Friends | Zona de Papas</title>
     <meta name="google-site-verification" content="eQihSDtTWI8iSBDmEhTxpJm8dZLKCpO78HZt-dpkvnc" />
 </head>
 
 
-<body>
+<body class="login">
     <div id="fb-root"></div>
 
     <div id="wrapper">
@@ -83,18 +84,56 @@
             </nav>
 
         </div>
-        <div class="container-fluid">
-            <div class="jumbotron jumbotron-fluid zonaPapas">
-                <div class="container">
-                    <h1 class="display-4 proximamente">Proximamente</h1>
-                    <p class="lead">Descargas de menus, calendarios, avisos y mucho mas</p>
+
+        <div class="container h-100">
+            <div class="h-100 row align-items-center justify-content-center">
+                <div class="col-md-7">
+                    <div class="content p-5 bg-light">
+                        <h2 class="text-center bg-success text-light py-2 mb-3 text-uppercase ">Acceso para Papás</h2>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="username">Usuario:</label>
+                                <input type="text" class="form-control" id="username" placeholder="Ingresa tu Usuario">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="password">Password:</label>
+                                <input type="text" class="form-control" id="password" placeholder="Tu Password">
+                            </div>
+                            <div class="form-check mt-3">
+                                <input type="checkbox" class="form-check-input" id="remember">
+                                <label class="form-check-label" for="remember">Recuerdame</label>
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-success mt-3" data-toggle="modal" data-target="#exampleModalCenter">
+    Ingresar
+  </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Usuario no valido</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Contáctanos para solicitar tu acceso
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
 
-
-
-        <div class="mt-5 mb-0 text-center">
+        <div class="footer mt-5 mb-0 text-center">
             <h6>© 2018 Kinder & Maternal Best Friends. All rights reserved
             </h6>
             <h6>Design by
@@ -120,6 +159,7 @@
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/papas.js"></script>
 
 
 </body>
